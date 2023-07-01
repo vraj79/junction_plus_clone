@@ -1,0 +1,40 @@
+.sliderCards {
+    min-width: 190px;
+    max-width: 300px;
+    box-sizing: border-box;
+    box-sizing: inherit;
+    border-radius: 10px;
+    overflow: hidden;
+    color:rgb(234,234,234);
+    position: relative;
+}
+.titleImage{
+    width: 100%;
+    max-height: 280px;
+    min-height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.titleImage>img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 1.2s;
+}
+.titleImage>img:hover {
+    transform: scale(1.2);
+}
+.sliderCards p:hover{
+    color: rgb(52,127,208);
+    cursor: pointer;
+}
+.voteIcon{
+    position: absolute;
+    z-index: 100;
+    left: 5%;
+    top: 280px;
+    font-size: 25px;
+    background:rgb(45, 45, 45);
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}

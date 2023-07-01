@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.ytMain{
+    position: relative;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .5;
+    height: 450px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.ytMainContainer {
+    top: 0;
+    left: 0;
+    position: absolute ;
+    z-index: 100;
+    width: 100%;
+    height: 450px;
+}
+.ytMainContainer > div:nth-child(3){
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnailsContainer {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 300px;
+}
+
+.thumbnailsContainer>a {
+    min-width: 295px;
+    margin: 10px;
+}
