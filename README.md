@@ -15,7 +15,7 @@
             <li>vercel (For deployment)</li>
         </ul></li>
     <li>Click here to see the project
-        <a href="https://junction-plus-abhishekojha5972.vercel.app/">Junction Plus</a>
+        <a href="https://junction-plus-clone.vercel.app/">Junction Plus</a>
     </li>
 </ul>
 
