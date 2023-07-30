@@ -3,7 +3,7 @@
     <li>This website is fully responsive</li>
     <li>Technologies used in this project
         <ul>
-            <li>Vanilla JavaScript</li>
+            <li>React Js</li>
             <li>Chakra Ui</li>
             <li>Slite</li>
             <li>Google Firebase</li>
